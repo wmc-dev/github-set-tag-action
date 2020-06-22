@@ -1,0 +1,14 @@
+name: "Set git tag"
+description: "Delete the tag on old commit if exists and sets it on the actual commit"
+author: "ZukenHammer"
+
+inputs:
+  tag:
+    description: "Tag to set"
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.tag }}
