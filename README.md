@@ -1,4 +1,4 @@
-#github-set-tag-action
+#github-set-tag-action  
 ##How to use
 ````
 - name: Set git tag
