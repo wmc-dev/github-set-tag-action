@@ -1,5 +1,5 @@
-#github-set-tag-action  
-##How to use
+# github-set-tag-action  
+## How to use
 ````
 - name: Set git tag
   uses: wmc-dev/github-set-tag-action@master
