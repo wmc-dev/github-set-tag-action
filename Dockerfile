@@ -1,3 +1,3 @@
-FROM node:12
-COPY update.sh /update.sh
-ENTRYPOINT ["/update.sh"]
+FROM node:lts
+COPY gittag.sh /gittag.sh
+ENTRYPOINT ["/gittag.sh"]
